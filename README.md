@@ -1,2 +1,2 @@
 # guessMyNumber
-project for a numbe gessing website
+project for a number gessing website
