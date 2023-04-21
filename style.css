@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: monospace;
+}
+
+.head{
+    display:flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 100vw;
+    z-index: 2;
+}
+
+.head button {
+    background-color: white;
+    border: 0cap;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: monospace;
+    padding: .5vw;
+}
+.head div{
+    padding-right: 15px;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+}
+.guess{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.ran {
+    padding: 3px;
+}
+.mid {
+    display: flex;
+    justify-content:center;
+
+    width: 100vw;
+    height: 10vw;
+
+}
+
+.mid div {
+    background-color: white;
+    font-size: 8vw;
+    width: 10vw;
+    z-index: 1;
+    text-align: center;
+}
+
+.mid section {
+    background-color: white;
+    width: 100vw;
+    height: 2px;
+    position: absolute;
+    align-self: center;
+    z-index: 0;
+}
+
+.content{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    font-size: 30px;
+    margin-top: 10vw;
+}
+
+.check {
+    background-color: white;
+    border: 0cap;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 11px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+.stats {
+    color: white;
+}
+
+.inp {
+    height: 50px;
+    font-size: 30px;
+    width: 150px;
+    background-color: gray;
+    border: 0px;
+}
+
+
+#result {
+    margin-bottom: 40px;
+}
